@@ -1,0 +1,11 @@
+import FourColorTheorem.FourColor.Reducibility.KernelCertificate.Config164Segments.Common
+import FourColorTheorem.FourColor.Reducibility.KernelCertificate.Config164OwnerData.Table
+import FourColorTheorem.FourColor.Reducibility.KernelCertificate.Config164OwnerEntryData.Segment300
+
+namespace Schematic.Math.GraphTheory.FourColor.KernelCertificate
+
+config164_owner_segment_certificate config164_segment300_verified and
+  config164_segment300_sound using config164OwnerEntries300
+  from 62715 to 62843
+
+end Schematic.Math.GraphTheory.FourColor.KernelCertificate

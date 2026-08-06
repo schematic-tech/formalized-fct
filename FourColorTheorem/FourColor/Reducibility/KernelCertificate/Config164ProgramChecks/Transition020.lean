@@ -1,0 +1,16 @@
+import FourColorTheorem.FourColor.Reducibility.KernelCertificate.Config164ProgramChecks.Transition020.Chunk000
+import FourColorTheorem.FourColor.Reducibility.KernelCertificate.Config164ProgramChecks.Transition020.Chunk001
+import FourColorTheorem.FourColor.Reducibility.KernelCertificate.Config164ProgramChecks.Transition020.Chunk002
+import FourColorTheorem.FourColor.Reducibility.KernelCertificate.Config164ProgramChecks.Transition020.Chunk003
+
+namespace Schematic.Math.GraphTheory.FourColor.KernelCertificate
+
+theorem config164_transition020_sound :
+    TransitionRangeSound config164Stage020Length config164Stage020Source config164Stage021Length config164Stage021Source config164Stage021Count (CpStep.rotate 1) 0 848 := by
+  have h000 : TransitionRangeSound config164Stage020Length config164Stage020Source config164Stage021Length config164Stage021Source config164Stage021Count (CpStep.rotate 1) 0 256 := by simpa using config164_transition020_000_sound
+  have h001 : TransitionRangeSound config164Stage020Length config164Stage020Source config164Stage021Length config164Stage021Source config164Stage021Count (CpStep.rotate 1) 0 512 := by simpa using h000.concat config164_transition020_001_sound
+  have h002 : TransitionRangeSound config164Stage020Length config164Stage020Source config164Stage021Length config164Stage021Source config164Stage021Count (CpStep.rotate 1) 0 768 := by simpa using h001.concat config164_transition020_002_sound
+  have h003 : TransitionRangeSound config164Stage020Length config164Stage020Source config164Stage021Length config164Stage021Source config164Stage021Count (CpStep.rotate 1) 0 848 := by simpa using h002.concat config164_transition020_003_sound
+  exact h003
+
+end Schematic.Math.GraphTheory.FourColor.KernelCertificate

@@ -1,0 +1,10 @@
+import FourColorTheorem.FourColor.Reducibility.KernelCertificate.Config164Segments.Common
+import FourColorTheorem.FourColor.Reducibility.KernelCertificate.Config164ProgramData.Stage034
+import FourColorTheorem.FourColor.Reducibility.KernelCertificate.Config164Data.Target
+
+namespace Schematic.Math.GraphTheory.FourColor.KernelCertificate
+
+config164_final_certificate config164_final_007_verified and config164_final_007_sound using
+  (67325, 1792, 256)
+
+end Schematic.Math.GraphTheory.FourColor.KernelCertificate

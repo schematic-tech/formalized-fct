@@ -1,0 +1,1 @@
+import FourColorTheorem.FourColor.Reducibility.ContractMinimal.ColoringLift

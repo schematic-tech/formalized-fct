@@ -1,0 +1,2 @@
+import FourColorTheorem.FourColor.Reducibility.Checker.FastContractTreeConsequences
+import FourColorTheorem.FourColor.Reducibility.Checker.ExecutableCheck

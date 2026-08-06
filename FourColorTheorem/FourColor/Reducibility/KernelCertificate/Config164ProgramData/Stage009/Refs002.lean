@@ -1,0 +1,17 @@
+import FourColorTheorem.FourColor.Reducibility.KernelCertificate.IndexedReplay
+
+namespace Schematic.Math.GraphTheory.FourColor.KernelCertificate
+
+set_option maxRecDepth 100000 in
+def config164Stage009Refs221 : RefTrie :=
+  RefTrie.node none (RefTrie.empty) (RefTrie.node none (RefTrie.empty) (RefTrie.empty) (RefTrie.node none (RefTrie.node none (RefTrie.node none (RefTrie.node none (RefTrie.node (some 21) RefTrie.empty RefTrie.empty RefTrie.empty) (RefTrie.empty) (RefTrie.empty)) (RefTrie.empty) (RefTrie.empty)) (RefTrie.empty) (RefTrie.empty)) (RefTrie.node none (RefTrie.empty) (RefTrie.node none (RefTrie.node none (RefTrie.node (some 22) RefTrie.empty RefTrie.empty RefTrie.empty) (RefTrie.empty) (RefTrie.empty)) (RefTrie.empty) (RefTrie.empty)) (RefTrie.empty)) (RefTrie.node none (RefTrie.empty) (RefTrie.empty) (RefTrie.node none (RefTrie.node none (RefTrie.node (some 23) RefTrie.empty RefTrie.empty RefTrie.empty) (RefTrie.empty) (RefTrie.empty)) (RefTrie.empty) (RefTrie.empty))))) (RefTrie.empty)
+
+set_option maxRecDepth 100000 in
+def config164Stage009Refs223 : RefTrie :=
+  RefTrie.node none (RefTrie.empty) (RefTrie.node none (RefTrie.empty) (RefTrie.empty) (RefTrie.node none (RefTrie.node none (RefTrie.node none (RefTrie.node none (RefTrie.empty) (RefTrie.empty) (RefTrie.node (some 24) RefTrie.empty RefTrie.empty RefTrie.empty)) (RefTrie.empty) (RefTrie.empty)) (RefTrie.empty) (RefTrie.empty)) (RefTrie.node none (RefTrie.empty) (RefTrie.node none (RefTrie.node none (RefTrie.empty) (RefTrie.empty) (RefTrie.node (some 25) RefTrie.empty RefTrie.empty RefTrie.empty)) (RefTrie.empty) (RefTrie.empty)) (RefTrie.empty)) (RefTrie.node none (RefTrie.empty) (RefTrie.empty) (RefTrie.node none (RefTrie.node none (RefTrie.empty) (RefTrie.empty) (RefTrie.node (some 26) RefTrie.empty RefTrie.empty RefTrie.empty)) (RefTrie.empty) (RefTrie.empty))))) (RefTrie.empty)
+
+set_option maxRecDepth 100000 in
+def config164Stage009Refs231 : RefTrie :=
+  RefTrie.node none (RefTrie.node none (RefTrie.empty) (RefTrie.empty) (RefTrie.node none (RefTrie.node none (RefTrie.node none (RefTrie.node none (RefTrie.empty) (RefTrie.empty) (RefTrie.node (some 27) RefTrie.empty RefTrie.empty RefTrie.empty)) (RefTrie.empty) (RefTrie.empty)) (RefTrie.empty) (RefTrie.empty)) (RefTrie.node none (RefTrie.empty) (RefTrie.node none (RefTrie.node none (RefTrie.empty) (RefTrie.empty) (RefTrie.node (some 28) RefTrie.empty RefTrie.empty RefTrie.empty)) (RefTrie.empty) (RefTrie.empty)) (RefTrie.empty)) (RefTrie.node none (RefTrie.empty) (RefTrie.empty) (RefTrie.node none (RefTrie.node none (RefTrie.empty) (RefTrie.empty) (RefTrie.node (some 29) RefTrie.empty RefTrie.empty RefTrie.empty)) (RefTrie.empty) (RefTrie.empty))))) (RefTrie.empty) (RefTrie.node none (RefTrie.empty) (RefTrie.empty) (RefTrie.node none (RefTrie.node none (RefTrie.node none (RefTrie.node none (RefTrie.node (some 30) RefTrie.empty RefTrie.empty RefTrie.empty) (RefTrie.empty) (RefTrie.empty)) (RefTrie.empty) (RefTrie.empty)) (RefTrie.empty) (RefTrie.empty)) (RefTrie.node none (RefTrie.empty) (RefTrie.node none (RefTrie.node none (RefTrie.node (some 31) RefTrie.empty RefTrie.empty RefTrie.empty) (RefTrie.empty) (RefTrie.empty)) (RefTrie.empty) (RefTrie.empty)) (RefTrie.empty)) (RefTrie.node none (RefTrie.empty) (RefTrie.empty) (RefTrie.node none (RefTrie.node none (RefTrie.node (some 32) RefTrie.empty RefTrie.empty RefTrie.empty) (RefTrie.empty) (RefTrie.empty)) (RefTrie.empty) (RefTrie.empty)))))
+
+end Schematic.Math.GraphTheory.FourColor.KernelCertificate
